@@ -16,6 +16,7 @@ namespace Core
         {
             Id = id;
             User = user;
+            CreationDate = DateTime.Now;
         }
 
         public override string ToString()        
