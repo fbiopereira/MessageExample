@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{C8C25A87-1B36-4059-A582-5C01175F3641}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{C8C25A87-1B36-4059-A582-5C01175F3641}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProducerAPI", "ProducerAPI\ProducerAPI.csproj", "{C30E275E-20B4-4289-81D0-41141DE7321D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProducerAPI", "ProducerAPI\ProducerAPI.csproj", "{C30E275E-20B4-4289-81D0-41141DE7321D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerWorkerService", "ConsumerWorkerService\ConsumerWorkerService.csproj", "{A8B14B55-B81E-44ED-9282-4151E3CB8632}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumerWorkerService", "ConsumerWorkerService\ConsumerWorkerService.csproj", "{A8B14B55-B81E-44ED-9282-4151E3CB8632}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +19,18 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8C25A87-1B36-4059-A582-5C01175F3641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C25A87-1B36-4059-A582-5C01175F3641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C25A87-1B36-4059-A582-5C01175F3641}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C8C25A87-1B36-4059-A582-5C01175F3641}.Debug|x64.Build.0 = Debug|Any CPU
+		{C8C25A87-1B36-4059-A582-5C01175F3641}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C8C25A87-1B36-4059-A582-5C01175F3641}.Debug|x86.Build.0 = Debug|Any CPU
+		{C8C25A87-1B36-4059-A582-5C01175F3641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C25A87-1B36-4059-A582-5C01175F3641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8C25A87-1B36-4059-A582-5C01175F3641}.Release|x64.ActiveCfg = Release|Any CPU
+		{C8C25A87-1B36-4059-A582-5C01175F3641}.Release|x64.Build.0 = Release|Any CPU
+		{C8C25A87-1B36-4059-A582-5C01175F3641}.Release|x86.ActiveCfg = Release|Any CPU
+		{C8C25A87-1B36-4059-A582-5C01175F3641}.Release|x86.Build.0 = Release|Any CPU
 		{C30E275E-20B4-4289-81D0-41141DE7321D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C30E275E-20B4-4289-81D0-41141DE7321D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C30E275E-20B4-4289-81D0-41141DE7321D}.Debug|x64.ActiveCfg = Debug|Any CPU
